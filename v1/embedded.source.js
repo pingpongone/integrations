@@ -29,7 +29,7 @@
 
         const container = document.createElement("div")
         container.setAttribute("id", "pingpongWidget")
-        container.setAttribute("style", "opacity: 0; visibility: hidden; display: none; position: absolute")
+        container.setAttribute("style", "opacity: 0; visibility: hidden; display: none; position: absolute; height: 180px")
         document.body.prepend(container)
 
         const iframe = document.createElement("iframe")
